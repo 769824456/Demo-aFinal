@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Demo</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_final_db">title_activity_final_db</string>
+    <string name="title_activity_final">title_activity_final</string>
+    <string name="title_activity_final_http">FinalHttpActivity</string>
+    <string name="title_activity_final_bitmap">FinalBitmapActivity</string>
+</resources>

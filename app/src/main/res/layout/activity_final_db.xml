@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.syl.demo.FinalDB.FinalDBActivity">
+
+    <Button
+        android:id="@+id/btn_db_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="添加一个用戶" />
+    <Button
+        android:id="@+id/btn_db_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="删除最后一个用戶" />
+    <Button
+        android:id="@+id/btn_db_find"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="查询最后一个用戶" />
+    <Button
+        android:id="@+id/btn_db_find_all"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="查询所有用戶" />
+
+
+    <TextView
+        android:id="@+id/tv_db_content"
+        android:textSize="14sp"
+        android:textColor="#000"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="None"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
